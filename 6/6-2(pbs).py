@@ -7,7 +7,7 @@ def selfnum(n):
  
 arr = []
  
-for i in list(range(1,10001)):
+for i in range(1,10001):
   arr.append(selfnum(i))
   if i not in arr:
     print(i)
