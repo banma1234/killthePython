@@ -1,0 +1,14 @@
+a, b, v = map(int, input().split())
+leng = 0
+day = 1
+
+while True:
+    
+    leng += a
+    if leng >= v:
+        print(day)
+        break
+    else:
+        leng -= b
+        day += 1
+    
